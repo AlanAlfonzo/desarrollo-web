@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin:0;
+}  
+
+body{
+    /* border: 4px solid black; */
+}
+
+
+
+header{
+    border: 4px solid black;
+    background-color:#00FAE6;
+}
+
+.iys{
+    position: relative;
+    left: 85%;
+    transform: translate(-10%);
+    justify-content: center;
+    right: 45%;
+}
+
+main{
+/*     border: 4px solid black; */
+    position: relative;
+}
+
+/* li:hover{
+
+} */
+
+.allshoes{
+    display:inline-block;
+    margin-top:150px;
+}
+
+
+.img__zapatilla_n°1{
+    position: absolute;
+    left: 10%;
+    transform: translate(-10%);
+}
+
+.img__zapatilla_n°2{
+    position: absolute;
+    left: 30%;
+    transform: translate(-30%);
+}
+
+.img__zapatilla_n°3{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.img__zapatilla_n°4{
+    position: absolute;
+    left: 70%;
+    transform: translate(-70%); 
+}
+
+.img__zapatilla_n°5{
+    position: absolute;
+    left: 90%;
+    transform: translate(-90%);
+}
+
+footer{
+    bottom: 0;
+    border-top:4px solid black;
+    position:absolute;
+    margin-bottom: 1px;
+    width: 100%;
+    height: 100px;
+     background-color:#808080;
+} 
+.redes{
+    display:inline-block;
+    padding-top: 30px;
+}
+.face{
+    position: absolute;
+    left: 85%;
+    transform: translate(-10%);
+}
+.twitter{
+    position: absolute;
+    left: 75%;
+    transform: translate(-15%);
+}
+.insta{
+    position: absolute;
+    left: 80%;
+    transform: translate(-20%);
+}
+
+.whatsapp{
+    position: absolute;
+    left: 10%;
+    transform: translate(-20%);
+}
+
+
+@media only screen and (max-width:1024px){
+
+}
+
+
+@media only screen and (max-width:768px){
+
+}
+
+
+@media only screen and (max-width:320px){
+    .allshoes{
+        position: relative;
+        justify-content: center;
+    }
+    .img__zapatilla_n°1{
+        position: relative;
+        left: 5%;
+        transform: translate(-5%);
+    }
+    .img__zapatilla_n°2{
+        position: relative;
+        left: 15%;
+        transform: translate(-15%);
+    }
+    .img__zapatilla_n°3{
+        position: relative;
+        left: 30%;
+        transform: translate(-30%);
+    }
+    .img__zapatilla_n°4{
+        position: relative;
+        left: 60%;
+        transform: translate(-60%); 
+    }
+    .img__zapatilla_n°5{
+        position: relative;
+        left: 90%;
+        transform: translate(90%);
+    }
+    footer{
+        bottom: 0;
+        border-top:4px solid black;
+        position:absolute;
+        margin-bottom: 1px;
+        width: 100%;
+        height: 100px;
+        background-color:#808080;
+        justify-content: flex-end;
+    }
+    .redes{
+        display:inline-block;
+        padding-top: 30px;
+    }
+    .face{
+        position: relative;
+        left: 85%;
+        transform: translate(-10%);
+    }
+    .twitter{
+        position: relative;
+        left: 75%;
+        transform: translate(-15%);
+    }
+    .insta{
+        position: relative;
+        left: 80%;
+        transform: translate(-20%);
+    }
+    
+    .whatsapp{
+        position: relative;
+        left: 10%;
+        transform: translate(-20%);
+    }
+}
